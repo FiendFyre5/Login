@@ -45,7 +45,7 @@ public class Registration extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Registration.this, "coming inside submit", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Registration.this, "inside submit", Toast.LENGTH_SHORT).show();
                 if(checkValidity()){
 
                     // uploading to the database
